@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Reference Record Archive</title>
+
+  <title>Transit Records</title>
 
   <meta name="description"
-        content="Jurisdiction-specific reference records describing operational conditions across regulated professional environments." />
+        content="Jurisdictional records relating to customs infrastructure systems, trade authorization environments, and cross-border oversight structures." />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -15,147 +16,158 @@
       box-sizing: border-box;
     }
 
+    html {
+      background: #fbfbf8;
+    }
+
     body {
       margin: 0;
       padding: 0;
-      background: #f7f7f5;
-      color: #121212;
+      background: #fbfbf8;
+      color: #141414;
       font-family: Georgia, "Times New Roman", serif;
       -webkit-font-smoothing: antialiased;
       text-rendering: optimizeLegibility;
     }
 
     .container {
-      max-width: 860px;
-      margin: 120px auto 120px auto;
-      padding: 0 38px;
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 62px 34px 128px 34px;
     }
 
-    .header {
+    .topline {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 14px;
+      border-bottom: 1px solid #e4e4df;
+      margin-bottom: 78px;
+    }
+
+    .series {
+      font-size: 10px;
+      letter-spacing: 1.6px;
+      text-transform: uppercase;
+      color: #7f7f7f;
+    }
+
+    .classification {
+      font-size: 10px;
+      color: #8b8b8b;
+    }
+
+    .content {
       max-width: 620px;
-      margin-bottom: 95px;
     }
 
     h1 {
-      margin: 0 0 20px 0;
-      font-size: 62px;
+      margin: 0;
+      font-size: 46px;
+      line-height: 1.04;
+      letter-spacing: -1px;
       font-weight: normal;
-      letter-spacing: -1.5px;
-      line-height: 1;
+      color: #101010;
+      max-width: 590px;
     }
 
     .intro {
-      font-size: 20px;
-      line-height: 1.72;
-      color: #4c4c4c;
-    }
-
-    .section-divider {
-      border: none;
-      border-top: 1px solid #e3e3df;
-      margin: 0 0 34px 0;
-    }
-
-    .meta-label {
-      font-size: 11px;
-      letter-spacing: 1.3px;
-      text-transform: uppercase;
-      color: #7b7b7b;
-      margin-bottom: 18px;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 70px;
-      margin-bottom: 95px;
-    }
-
-    .block {
-      max-width: 350px;
-    }
-
-    .block h2 {
-      margin: 0 0 18px 0;
-      font-size: 13px;
-      font-weight: normal;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      color: #777;
-    }
-
-    .block p {
-      margin: 0 0 18px 0;
+      margin-top: 28px;
+      max-width: 575px;
       font-size: 18px;
-      line-height: 1.82;
-      color: #1a1a1a;
-    }
-
-    .block p:last-child {
-      margin-bottom: 0;
-    }
-
-    .editorial {
-      max-width: 640px;
-      margin-bottom: 105px;
-    }
-
-    .editorial p {
-      margin: 0 0 16px 0;
-      font-size: 15px;
       line-height: 1.9;
-      color: #555;
+      color: #4b4b4b;
     }
 
-    .editorial p:last-child {
-      margin-bottom: 0;
+    .section {
+      margin-top: 68px;
     }
 
-    .navigation {
-      margin-bottom: 110px;
+    .section-header {
+      font-size: 10px;
+      letter-spacing: 1.7px;
+      text-transform: uppercase;
+      color: #8d8d8d;
+      margin-bottom: 13px;
     }
 
-    .navigation a {
+    .divider {
+      width: 100%;
+      height: 1px;
+      background: #e6e6e1;
+      margin-bottom: 24px;
+    }
+
+    .section p {
+      margin: 0;
+      max-width: 580px;
+      font-size: 16px;
+      line-height: 1.92;
+      color: #232323;
+    }
+
+    .jurisdictions {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 480px;
+    }
+
+    .jurisdiction a {
       text-decoration: none;
-      border-bottom: 1px solid #9a9a9a;
       color: #171717;
-      font-size: 18px;
-      line-height: 1.6;
+      font-size: 17px;
+      line-height: 1.7;
+      border-bottom: 1px solid #b7b7b1;
+      padding-bottom: 1px;
     }
 
-    .navigation a:hover {
-      border-color: #111;
+    .jurisdiction a:hover {
+      border-color: #101010;
     }
 
     .footer {
-      font-size: 12px;
-      line-height: 1.85;
-      color: #707070;
+      margin-top: 126px;
+      padding-top: 18px;
+      border-top: 1px solid #e4e4df;
+      font-size: 11px;
+      line-height: 2;
+      color: #767676;
     }
 
     @media (max-width: 760px) {
 
       .container {
-        margin: 78px auto 90px auto;
-        padding: 0 24px;
+        padding: 38px 22px 88px 22px;
+      }
+
+      .topline {
+        margin-bottom: 58px;
       }
 
       h1 {
-        font-size: 44px;
+        font-size: 36px;
+        line-height: 1.08;
       }
 
       .intro {
-        font-size: 18px;
+        font-size: 17px;
+        line-height: 1.88;
       }
 
-      .grid {
-        grid-template-columns: 1fr;
-        gap: 42px;
+      .section {
+        margin-top: 54px;
       }
 
-      .block {
-        max-width: 100%;
+      .section p {
+        font-size: 15px;
+        line-height: 1.86;
       }
+
+      .jurisdiction a {
+        font-size: 16px;
+      }
+
     }
 
   </style>
@@ -165,96 +177,100 @@
 
   <div class="container">
 
-    <header class="header">
+    <div class="topline">
 
-      <h1>Reference Record Archive</h1>
-
-      <div class="intro">
-        Jurisdiction-specific reference records describing operational conditions across regulated cross-border professional environments.
+      <div class="series">
+        Transit Records
       </div>
 
-    </header>
-
-    <hr class="section-divider" />
-
-    <div class="meta-label">Archive Structure</div>
-
-    <section class="grid">
-
-      <div class="block">
-
-        <h2>Function</h2>
-
-        <p>
-          The archive maintains structured reference records covering procedural conditions within jurisdiction-specific professional environments.
-        </p>
-
-        <p>
-          Records are organized according to domain, jurisdiction, and operational dependency.
-        </p>
-
+      <div class="classification">
+        Cross-Border Trade Infrastructure Environments
       </div>
 
-      <div class="block">
-
-        <h2>Record Conditions</h2>
-
-        <p>
-          Entries reflect procedural conditions applicable at the time of publication and review.
-        </p>
-
-        <p>
-          Filing structures, enforcement systems, administrative practices, and reporting obligations may differ between jurisdictions.
-        </p>
-
-      </div>
-
-      <div class="block">
-
-        <h2>Coverage</h2>
-
-        <p>
-          The archive covers professional environments involving formal registration systems, statutory procedures, regulatory reporting obligations, and cross-border operational requirements.
-        </p>
-
-      </div>
-
-      <div class="block">
-
-        <h2>Publication Continuity</h2>
-
-        <p>
-          Records may be revised, expanded, archived, or reclassified as local procedures and professional standards evolve over time.
-        </p>
-
-      </div>
-
-    </section>
-
-    <section class="editorial">
-
-      <div class="meta-label">Editorial Scope</div>
-
-      <p>
-        The archive does not rank, certify, or evaluate professional entities. Records are maintained as structured jurisdictional references intended for operational and comparative review.
-      </p>
-
-      <p>
-        Included materials may reference procedural characteristics relating to registration systems, court dependency, reporting structures, enforcement conditions, or execution sequencing within defined professional domains.
-      </p>
-
-    </section>
-
-    <div class="navigation">
-      <a href="/records">Records</a>
     </div>
 
+    <main class="content">
+
+      <h1>
+        Cross-Border Trade Transit Records
+      </h1>
+
+      <div class="intro">
+        Jurisdictional records relating to customs infrastructure systems, trade authorization environments, and cross-border oversight structures associated with regulated international goods movement.
+      </div>
+
+      <section class="section">
+
+        <div class="section-header">
+          Transit Environment
+        </div>
+
+        <div class="divider"></div>
+
+        <p>
+          Cross-border trade environments commonly operate inside comparatively administration-intensive customs systems associated with authorization continuity, tariff positioning structures, and ongoing jurisdictional oversight environments.
+        </p>
+
+      </section>
+
+      <section class="section">
+
+        <div class="section-header">
+          Jurisdictional Records
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="jurisdictions">
+
+          <div class="jurisdiction">
+            <a href="/european-union/">
+              European Union
+            </a>
+          </div>
+
+          <div class="jurisdiction">
+            <a href="/united-states/">
+              United States
+            </a>
+          </div>
+
+          <div class="jurisdiction">
+            <a href="/united-kingdom/">
+              United Kingdom
+            </a>
+          </div>
+
+          <div class="jurisdiction">
+            <a href="/singapore/">
+              Singapore
+            </a>
+          </div>
+
+          <div class="jurisdiction">
+            <a href="/united-arab-emirates/">
+              United Arab Emirates
+            </a>
+          </div>
+
+          <div class="jurisdiction">
+            <a href="/switzerland/">
+              Switzerland
+            </a>
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
     <footer class="footer">
-      Reference Series: Cross-Border Professional Systems<br />
-      Archive Classification: Jurisdictional Reference Environment<br />
-      Record Format: Structured Operational Reference<br />
-      Publication Status: Active<br />
-      Edition Cycle: Ongoing
+
+      Reference Series: Transit Records<br />
+      Archive Classification: Cross-Border Trade Infrastructure Environments<br />
+      Publication Status: Active
+
     </footer>
 
   </div>
