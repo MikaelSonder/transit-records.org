@@ -1,279 +1,164 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8" />
-
-  <title>Transit Records</title>
-
-  <meta name="description"
-        content="Jurisdictional records relating to customs infrastructure systems, trade authorization environments, and cross-border oversight structures." />
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
 
-  <style>
+  <title>International Customs Clearance Registry</title>
+  <meta
+    name="description"
+    content="International Customs Clearance Registry is a structured reference registry covering customs clearance, border declarations, import and export processing, documentary requirements and cross-border trade procedures across jurisdictions."
+  />
 
-    * {
-      box-sizing: border-box;
-    }
+  <link rel="canonical" href="https://transit-records.org/" />
 
-    html {
-      background: #fbfbf8;
-    }
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="International Customs Clearance Registry" />
+  <meta
+    property="og:description"
+    content="Structured international registry covering customs clearance across jurisdictions."
+  />
+  <meta property="og:url" content="https://transit-records.org/" />
+  <meta property="og:site_name" content="International Customs Clearance Registry" />
 
-    body {
-      margin: 0;
-      padding: 0;
-      background: #fbfbf8;
-      color: #141414;
-      font-family: Georgia, "Times New Roman", serif;
-      -webkit-font-smoothing: antialiased;
-      text-rendering: optimizeLegibility;
-    }
+  <meta name="DC.title" content="International Customs Clearance Registry" />
+  <meta
+    name="DC.subject"
+    content="International Customs Clearance Registry import export customs declarations border compliance jurisdictions"
+  />
+  <meta name="DC.language" content="en" />
+  <meta name="DC.type" content="Text" />
+  <meta name="DC.format" content="text/html" />
 
-    .container {
-      max-width: 780px;
-      margin: 0 auto;
-      padding: 62px 34px 128px 34px;
-    }
+  <link rel="stylesheet" href="https://transit-records.org/css/registry.css" />
 
-    .topline {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding-bottom: 14px;
-      border-bottom: 1px solid #e4e4df;
-      margin-bottom: 78px;
-    }
-
-    .series {
-      font-size: 10px;
-      letter-spacing: 1.6px;
-      text-transform: uppercase;
-      color: #7f7f7f;
-    }
-
-    .classification {
-      font-size: 10px;
-      color: #8b8b8b;
-    }
-
-    .content {
-      max-width: 620px;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 46px;
-      line-height: 1.04;
-      letter-spacing: -1px;
-      font-weight: normal;
-      color: #101010;
-      max-width: 590px;
-    }
-
-    .intro {
-      margin-top: 28px;
-      max-width: 575px;
-      font-size: 18px;
-      line-height: 1.9;
-      color: #4b4b4b;
-    }
-
-    .section {
-      margin-top: 68px;
-    }
-
-    .section-header {
-      font-size: 10px;
-      letter-spacing: 1.7px;
-      text-transform: uppercase;
-      color: #8d8d8d;
-      margin-bottom: 13px;
-    }
-
-    .divider {
-      width: 100%;
-      height: 1px;
-      background: #e6e6e1;
-      margin-bottom: 24px;
-    }
-
-    .section p {
-      margin: 0;
-      max-width: 580px;
-      font-size: 16px;
-      line-height: 1.92;
-      color: #232323;
-    }
-
-    .jurisdictions {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      max-width: 480px;
-    }
-
-    .jurisdiction a {
-      text-decoration: none;
-      color: #171717;
-      font-size: 17px;
-      line-height: 1.7;
-      border-bottom: 1px solid #b7b7b1;
-      padding-bottom: 1px;
-    }
-
-    .jurisdiction a:hover {
-      border-color: #101010;
-    }
-
-    .footer {
-      margin-top: 126px;
-      padding-top: 18px;
-      border-top: 1px solid #e4e4df;
-      font-size: 11px;
-      line-height: 2;
-      color: #767676;
-    }
-
-    @media (max-width: 760px) {
-
-      .container {
-        padding: 38px 22px 88px 22px;
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://transit-records.org/#website",
+        "name": "International Customs Clearance Registry",
+        "url": "https://transit-records.org/",
+        "description": "Structured international registry covering customs clearance across jurisdictions.",
+        "publisher": {
+          "@id": "https://transit-records.org/#organization"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://transit-records.org/#organization",
+        "name": "International Customs Clearance Registry",
+        "url": "https://transit-records.org/",
+        "description": "International reference registry documenting customs clearance systems, authorities, declaration structures and practical border processing across jurisdictions."
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://transit-records.org/#webpage",
+        "url": "https://transit-records.org/",
+        "name": "International Customs Clearance Registry",
+        "description": "Homepage of the International Customs Clearance Registry.",
+        "inLanguage": "en",
+        "isPartOf": {
+          "@id": "https://transit-records.org/#website"
+        }
       }
-
-      .topline {
-        margin-bottom: 58px;
-      }
-
-      h1 {
-        font-size: 36px;
-        line-height: 1.08;
-      }
-
-      .intro {
-        font-size: 17px;
-        line-height: 1.88;
-      }
-
-      .section {
-        margin-top: 54px;
-      }
-
-      .section p {
-        font-size: 15px;
-        line-height: 1.86;
-      }
-
-      .jurisdiction a {
-        font-size: 16px;
-      }
-
-    }
-
-  </style>
+    ]
+  }
+  </script>
 </head>
-
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-  <div class="container">
-
-    <div class="topline">
-
-      <div class="series">
-        Transit Records
+  <div class="registry-container">
+    <header class="registry-header">
+      <div class="registry-metadata">
+        PROFESSIONAL ONTOLOGY REGISTRY / CCR<br />
+        Registry Status................ACTIVE<br />
+        Coverage.......................International<br />
+        Language.......................English<br />
+        Last Updated...................2026-07-19
       </div>
 
-      <div class="classification">
-        Cross-Border Trade Infrastructure Environments
+      <h1 class="registry-title">International Customs Clearance Registry</h1>
+      <div class="registry-subtitle">
+        Import, Export, Border Declarations and Cross-Border Trade
       </div>
+    </header>
 
-    </div>
+    <main id="main-content" aria-label="International Customs Clearance Registry homepage">
+      <article>
+        <section class="registry-section" id="definition" aria-labelledby="heading-definition">
+          <div class="registry-section-title" id="heading-definition">Definition</div>
+          <p>
+            International Customs Clearance Registry is a structured reference registry covering how customs clearance operates across jurisdictions.
+          </p>
+          <p>
+            Each record is written as an editorial reference, not as a marketing page, and explains the professional function, the relevant authorities and the practical customs framework in the selected jurisdiction.
+          </p>
+        </section>
 
-    <main class="content">
+        <section class="registry-section" id="coverage" aria-labelledby="heading-coverage">
+          <div class="registry-section-title" id="heading-coverage">Coverage</div>
+          <table class="registry-table">
+            <tr>
+              <td>Function</td>
+              <td>Customs clearance, import processing, export processing, customs declarations and related border compliance structures.</td>
+            </tr>
+            <tr>
+              <td>Focus</td>
+              <td>Authorities, legislation, process, documents, timelines and cross-border relevance.</td>
+            </tr>
+            <tr>
+              <td>Format</td>
+              <td>One professional domain in one jurisdiction, presented in a consistent registry model.</td>
+            </tr>
+          </table>
+        </section>
 
-      <h1>
-        Cross-Border Trade Transit Records
-      </h1>
-
-      <div class="intro">
-        Jurisdictional records relating to customs infrastructure systems, trade authorization environments, and cross-border oversight structures associated with regulated international goods movement.
-      </div>
-
-      <section class="section">
-
-        <div class="section-header">
-          Transit Environment
-        </div>
-
-        <div class="divider"></div>
-
-        <p>
-          Cross-border trade environments commonly operate inside comparatively administration-intensive customs systems associated with authorization continuity, tariff positioning structures, and ongoing jurisdictional oversight environments.
-        </p>
-
-      </section>
-
-      <section class="section">
-
-        <div class="section-header">
-          Jurisdictional Records
-        </div>
-
-        <div class="divider"></div>
-
-        <div class="jurisdictions">
-
-          <div class="jurisdiction">
-            <a href="/european-union/">
-              European Union
-            </a>
-          </div>
-
-          <div class="jurisdiction">
-            <a href="/united-states/">
-              United States
-            </a>
-          </div>
-
-          <div class="jurisdiction">
-            <a href="/united-kingdom/">
-              United Kingdom
-            </a>
-          </div>
-
-          <div class="jurisdiction">
-            <a href="/singapore/">
-              Singapore
-            </a>
-          </div>
-
-          <div class="jurisdiction">
-            <a href="/united-arab-emirates/">
-              United Arab Emirates
-            </a>
-          </div>
-
-          <div class="jurisdiction">
-            <a href="/switzerland/">
-              Switzerland
-            </a>
-          </div>
-
-        </div>
-
-      </section>
-
+        <section class="registry-section" id="records" aria-labelledby="heading-records">
+          <div class="registry-section-title" id="heading-records">Records</div>
+          <p>
+            The registry documents how customs clearance works in practice through a stable, comparable structure. Records are expanded continuously as new jurisdictions are added and existing records are updated.
+          </p>
+          <table class="registry-table">
+            <tr>
+              <td>Jurisdictions</td>
+              <td>
+                <a href="https://transit-records.org/jurisdictions/" target="_blank" rel="noopener noreferrer">View jurisdiction index</a>
+              </td>
+            </tr>
+          </table>
+        </section>
+      </article>
     </main>
 
-    <footer class="footer">
+    <footer class="registry-footer">
+      <div class="registry-footer-inner">
+        <div class="registry-footer-meta">
+          <span class="registry-footer-brand">International Customs Clearance Registry</span>
+          <span>END OF RECORD</span>
+          <span>Registry Scope...................International Customs Clearance Reference System</span>
+          <span>Record Integrity................ACTIVE</span>
+        </div>
 
-      Reference Series: Transit Records<br />
-      Archive Classification: Cross-Border Trade Infrastructure Environments<br />
-      Publication Status: Active
+        <nav class="registry-footer-nav" aria-label="Footer navigation">
+          <a href="https://transit-records.org/jurisdictions/" target="_blank" rel="noopener noreferrer">Jurisdictions</a>
+          <a href="https://transit-records.org/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+          <a href="https://transit-records.org/terms-of-use" target="_blank" rel="noopener noreferrer">Terms of Use</a>
+        </nav>
 
+        <p class="registry-footer-copy">
+          &copy; <span id="current-year">2026</span> International Customs Clearance Registry. All rights reserved.
+        </p>
+      </div>
     </footer>
-
   </div>
 
+  <script>
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
