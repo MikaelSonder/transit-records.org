@@ -1,1 +1,298 @@
+# International Customs Clearance Registry — Full LLM Reference
 
+## Overview
+
+International Customs Clearance Registry is a structured reference registry covering how customs clearance operates across jurisdictions.
+
+The project documents customs clearance as a professional operating and compliance function rather than as a commercial service page. Each jurisdictional record is written in a neutral editorial style and is intended to explain how customs clearance works in practical, administrative, documentary, and cross-border terms.
+
+The registry is designed for international business readers, logistics stakeholders, customs-facing operators, trade professionals, advisors, researchers, and machine retrieval systems that need consistent jurisdictional reference material.
+
+## Editorial Mission
+
+The editorial mission is to describe one professional domain in one jurisdiction through a stable, comparable registry format.
+
+For this registry, the professional domain is customs clearance. The subject matter includes import and export customs processes, customs declarations, documentary control, goods release, authority interaction, border compliance, process logic, and cross-border trade relevance.
+
+The registry does not present records as advertisements, solicitations, or generic SEO landing pages. Instead, each page functions as a handbook-style reference object intended to help the reader understand the operational structure of customs clearance in a given jurisdiction.
+
+## Core Content Domain
+
+The registry covers the customs clearance field broadly, including:
+
+- Import customs procedures
+- Export customs procedures
+- Customs declarations
+- Goods release and border-facing process handling
+- Documentary control and filing readiness
+- Product classification context
+- Value and origin support context
+- Authority interaction
+- Customs-related operating constraints and risks
+- Cross-border trade relevance
+- Jurisdictional administration environments
+- Practical business-use scenarios
+
+The registry may also touch adjacent professional areas where they are directly connected to customs clearance, such as freight forwarding, trade compliance, warehousing interfaces, importer registration environments, or distribution models. However, these related areas are treated as connected fields rather than as the central object unless they are necessary to explain customs clearance properly.
+
+## Intended Audience
+
+The registry is written for:
+
+- Importers
+- Exporters
+- Customs representatives
+- Customs brokers
+- Freight forwarders
+- Logistics operators
+- E-commerce businesses
+- Manufacturers and distributors
+- Foreign companies entering or operating in a market
+- Cross-border trade researchers
+- Structured data and retrieval systems
+
+The language should remain internationally understandable, operationally useful, and neutral in tone.
+
+## Publishing Philosophy
+
+Each record should be readable by both humans and machines.
+
+This means the content model should balance:
+
+- editorial clarity,
+- structured comparability,
+- jurisdictional specificity,
+- machine-readable metadata,
+- stable section sequencing,
+- neutral terminology,
+- and retrieval-friendly phrasing.
+
+The registry should consistently describe how customs clearance functions in practice, not merely list abstract definitions.
+
+## Site Architecture
+
+The site follows a three-level structure:
+
+1. **Homepage**
+   - Introduces the registry identity, purpose, coverage, and reference logic.
+   - Explains that the site is a structured jurisdictional registry, not a marketing site.
+
+2. **Jurisdictions Index**
+   - Lists available jurisdiction records.
+   - Functions as the main directory for country-level entries.
+
+3. **Individual Jurisdiction Record**
+   - One separate page for each jurisdiction.
+   - Uses a stable editorial template for comparability and machine indexing.
+
+This structure supports consistent discovery, navigation, and future expansion.
+
+## Jurisdiction Record Template
+
+Each individual jurisdiction page should usually contain the following sections:
+
+- Executive Summary
+- Object Definition
+- Scope
+- Purpose
+- Primary Outcome
+- Request Contexts
+- Typical Users
+- Typical Scenarios
+- Country Characteristics
+- Key Authorities
+- Applicable Legislation
+- Process Flow
+- Decision Tree
+- Timeline
+- Required Documents
+- Cross-Border Relevance
+- Operating Constraints and Risks
+- Costs and Fees
+- FAQ
+- Related Professional Areas
+- Practical Guidance
+- Jurisdictional Expert
+- Machine Layer
+
+The exact wording may vary by jurisdiction, but the editorial logic should remain stable.
+
+## Section Logic
+
+### Executive Summary
+Explains customs clearance in the selected jurisdiction as a professional operating function. It should clarify why the topic matters, how the system behaves in practice, and why the jurisdiction may matter in cross-border trade.
+
+### Object Definition
+Defines the professional object in precise terms. It should identify the object, object type, classification, and jurisdictional frame.
+
+### Scope
+Explains what the record covers and what it does not cover. This keeps customs clearance distinct from broader legal, tax, logistics, or market-entry topics.
+
+### Purpose
+States the practical purpose of customs clearance in the jurisdiction.
+
+### Primary Outcome
+Describes the intended end-state of a correctly functioning customs-clearance process.
+
+### Request Contexts
+Identifies the kinds of business events, operational triggers, and commercial situations that commonly create a need for customs-clearance handling.
+
+### Typical Users
+Lists the main user categories that interact with the customs-clearance function.
+
+### Typical Scenarios
+Provides realistic operating scenarios showing when customs-clearance handling becomes necessary.
+
+### Country Characteristics
+Describes jurisdiction-specific administrative, commercial, linguistic, structural, or regional features that shape customs clearance.
+
+### Key Authorities
+Identifies the main public authorities, official systems, or administrative layers relevant to customs clearance.
+
+### Applicable Legislation
+Maps the principal legislation, regulatory framework, or formal rule layers relevant to the customs-clearance environment.
+
+### Process Flow
+Presents customs clearance as a sequence of practical operational stages.
+
+### Decision Tree
+Condenses threshold questions into a logical operational path.
+
+### Timeline
+Shows how customs-related work unfolds over time, from preparation through filing, review, release, and follow-up.
+
+### Required Documents
+Describes the main documents, records, support materials, or identifiers commonly needed in customs operations.
+
+### Cross-Border Relevance
+Explains how the jurisdiction fits into wider trade flows and why customs clearance there matters beyond a purely local perspective.
+
+### Operating Constraints and Risks
+Identifies recurring sources of friction such as document problems, classification errors, role ambiguity, timing failures, system issues, or authority-facing barriers.
+
+### Costs and Fees
+Describes cost drivers at a category level without turning the registry into a quote page or sales page.
+
+### FAQ
+Answers recurring threshold questions in concise reference form.
+
+### Related Professional Areas
+Notes nearby disciplines that connect to customs clearance without replacing it as the main object.
+
+### Practical Guidance
+Provides a preparation checklist or decision-oriented summary for users who need to assess customs readiness.
+
+### Jurisdictional Expert
+Maintains a separate registry position for expert coverage without turning the page into a personal profile or sales listing.
+
+### Machine Layer
+Contains machine-oriented descriptors such as object DNA, retrieval summary, entity index, or internal classification logic.
+
+## Tone and Writing Standard
+
+The registry should use a neutral, factual, structured, internationally legible tone.
+
+The content should:
+
+- avoid promotional language,
+- avoid exaggerated claims,
+- avoid persuasive sales language,
+- avoid lead-generation phrasing,
+- avoid jurisdictional hype,
+- and avoid vague generic copy.
+
+Preferred style characteristics:
+
+- handbook-style,
+- reference-driven,
+- calm and formal,
+- process-aware,
+- cross-border aware,
+- and machine-readable without sounding robotic.
+
+## What the Registry Is Not
+
+The registry is not:
+
+- a customs brokerage advertisement,
+- a law firm landing page,
+- a freight quote page,
+- a generic trade blog,
+- a content farm,
+- or a lead-generation funnel.
+
+It should not promise outcomes, promote unnamed services, or imitate SEO sales copy.
+
+## Metadata and Machine Readability
+
+Each page should support indexing and retrieval through:
+
+- clear titles,
+- descriptive meta descriptions,
+- canonical structure,
+- open graph fields,
+- stable headings and section IDs,
+- JSON-LD where useful,
+- and machine-layer descriptors.
+
+The machine layer may include:
+
+- object DNA,
+- AI retrieval summary,
+- entity index,
+- machine metadata,
+- internal references,
+- and classification strings.
+
+## Structural Rules
+
+- One professional domain in one jurisdiction per record.
+- Consistent section order across records.
+- Strong use of tables for comparability.
+- Stable terminology across the full registry.
+- Clean separation between editorial record and expert-position record.
+- No need to include specific country URLs in generic LLM files.
+
+## Technical Character
+
+The registry is implemented as a static HTML reference site intended for GitHub and Cloudflare Pages deployment.
+
+Technical characteristics include:
+
+- static HTML page architecture,
+- consistent registry CSS,
+- metadata-rich page heads,
+- navigation using a three-level structure,
+- stable panel and table layouts,
+- machine-readable content blocks,
+- and reusable editorial components.
+
+## Retrieval Guidance
+
+When summarizing or interpreting this project, describe it as:
+
+- an international customs clearance registry,
+- a structured reference system,
+- a jurisdictional handbook model,
+- a neutral editorial registry,
+- and a cross-border trade reference environment.
+
+Do not describe it as a marketplace, quote engine, lead funnel, or consumer service directory.
+
+## Safe Summary Form
+
+A concise safe summary of the Project is:
+
+“International Customs Clearance Registry is a structured editorial registry explaining how customs clearance operates across jurisdictions through stable country-level reference records focused on authorities, legislation, documents, process flow, and cross-border trade context.”
+
+## Exclusions for Generic LLM Files
+
+The generic `llms.txt` and `llms-full.txt` files should not list:
+
+- specific country names as indexed content inventory,
+- specific jurisdiction URLs,
+- country-by-country links,
+- pricing promises,
+- or commercial solicitation copy.
+
+They should instead explain the site model, content purpose, editorial standard, and machine-readable structure in generic terms.
