@@ -1,1 +1,74 @@
+# International Customs Clearance Registry
 
+> Neutral registry of customs clearance systems, authorities, legal frameworks, declarations, documentary requirements, operating constraints, and cross-border trade context across jurisdictions.
+
+## Purpose
+
+International Customs Clearance Registry is a structured reference registry covering how customs clearance operates across jurisdictions.
+
+Each record is written as an editorial reference, not as a marketing page, and explains the professional function, the relevant authorities, the practical customs environment, and the cross-border operating context in the selected jurisdiction.
+
+## Coverage
+
+- Domain: Customs clearance, import procedures, export procedures, customs declarations, goods release, documentary control, border compliance, and cross-border trade administration.
+- Focus: Authorities, legislation, process flow, required documents, timelines, operating constraints, related professional areas, and machine-readable registry fields.
+- Format: One professional domain in one jurisdiction, presented in a consistent registry model.
+- Tone: Neutral, factual, handbook-style, and internationally legible.
+
+## Site Structure
+
+The registry follows a three-level structure:
+
+1. Homepage introducing the registry scope and professional object model.
+2. Jurisdictions index listing available country-level records.
+3. Individual jurisdiction records using a stable editorial structure.
+
+## Record Model
+
+Jurisdiction records are typically organized around the following components:
+
+- Executive Summary
+- Object Definition
+- Scope
+- Purpose
+- Primary Outcome
+- Request Contexts
+- Typical Users
+- Typical Scenarios
+- Country Characteristics
+- Key Authorities
+- Applicable Legislation
+- Process Flow
+- Decision Tree
+- Timeline
+- Required Documents
+- Cross-Border Relevance
+- Operating Constraints and Risks
+- Costs and Fees
+- FAQ
+- Related Professional Areas
+- Practical Guidance
+- Jurisdictional Expert
+- Machine Layer
+
+## Content Principles
+
+- The registry describes customs clearance as a professional operating function.
+- Records are designed for business readers, international operators, advisors, and researchers.
+- Content is not legal advice and does not function as a commercial solicitation.
+- Pages are structured for comparability across jurisdictions.
+- Editorial consistency, machine readability, and cross-border clarity are core design goals.
+
+## Exclusions
+
+- No lead-generation copy.
+- No promotional claims.
+- No country-specific pricing promises.
+- No jurisdiction-specific URLs in this summary file.
+
+## Technical Notes
+
+- Static HTML architecture.
+- Consistent registry CSS and table-based reference layout.
+- Metadata-rich pages with machine-readable fields.
+- Intended for indexing, retrieval, and reference use.
