@@ -32,12 +32,7 @@
   <meta name="DC.type" content="Text" />
   <meta name="DC.format" content="text/html" />
 
-  <link rel="stylesheet" href="https://transit-records.org/css/registry.css" />
-
-
-  <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
-  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&amp;f[]=cabinet-grotesk@500,700&amp;display=swap" rel="stylesheet" />
-  <style id="registry-base-fallback">
+  <style id="registry-original-fallback">
 /*
 ==========================================================
 PROFESSIONAL ONTOLOGY REGISTRY (POR)
@@ -487,186 +482,7 @@ a:focus-visible {
 }
 
   </style>
-  <style id="tullfokus-profile-styles">
-/* Art direction: an editorial customs-partner dossier inside the existing registry.
-   Palette: neutral paper, ink and Tullfokus-inspired green; original page untouched.
-   Typography: Satoshi body + Cabinet Grotesk display. Balanced information density. */
-#registered-participants {
-  --font-body:'Satoshi',sans-serif; --font-display:'Cabinet Grotesk','Satoshi',sans-serif;
-  --text-xs:clamp(.75rem,.73rem + .12vw,.8125rem);
-  --text-sm:clamp(.875rem,.84rem + .15vw,.9375rem);
-  --text-base:clamp(1rem,.96rem + .15vw,1.0625rem);
-  --text-lg:clamp(1.125rem,1rem + .5vw,1.375rem);
-  --text-xl:clamp(1.5rem,1.2rem + 1vw,2.125rem);
-  --text-2xl:clamp(2.5rem,1.8rem + 2.5vw,4.25rem);
-  --space-1:.25rem; --space-2:.5rem; --space-3:.75rem; --space-4:1rem;
-  --space-5:1.25rem; --space-6:1.5rem; --space-8:2rem; --space-10:2.5rem;
-  --space-12:3rem; --space-16:4rem; --space-20:5rem;
-  --radius-sm:.25rem; --radius-md:.5rem; --radius-lg:.75rem;
-  --color-bg:oklch(98% .006 110); --color-surface:oklch(100% 0 0);
-  --color-surface-2:oklch(96% .01 110); --color-surface-offset:oklch(92% .015 140);
-  --color-text:oklch(23% .018 155); --color-text-muted:oklch(43% .02 155);
-  --color-text-faint:oklch(47% .015 155); --color-border:oklch(25% .018 155 / .17);
-  --color-primary:oklch(37% .07 152); --color-primary-hover:oklch(29% .06 152);
-  --color-accent:oklch(80% .12 135); --color-ink:oklch(23% .023 155);
-  --color-hero-text:oklch(98% .005 110); --color-hero-muted:oklch(83% .017 140);
-  --shadow-lg:0 16px 48px oklch(22% .02 155 / .08);
-  --transition-interactive:200ms cubic-bezier(.16,1,.3,1);
-  scroll-margin-top:var(--space-6);
-}
-#registered-participants .tf-profile {
-  box-sizing:border-box; color:var(--color-text); background:var(--color-bg);
-  font:400 var(--text-base)/1.65 var(--font-body); text-align:left;
-  overflow:hidden; border:1px solid var(--color-border); box-shadow:var(--shadow-lg);
-  border-radius:var(--radius-lg); margin-top:var(--space-6);
-}
-#registered-participants .tf-profile *,#registered-participants .tf-profile *::before,#registered-participants .tf-profile *::after {box-sizing:border-box;}
-#registered-participants .tf-profile[data-theme="dark"] {
-  --color-bg:oklch(22% .017 155); --color-surface:oklch(26% .017 155);
-  --color-surface-2:oklch(30% .017 155); --color-surface-offset:oklch(32% .025 155);
-  --color-text:oklch(94% .009 110); --color-text-muted:oklch(79% .015 140);
-  --color-text-faint:oklch(75% .015 140); --color-border:oklch(94% .009 110 / .17);
-  --color-primary:oklch(82% .1 140); --color-primary-hover:oklch(89% .08 140);
-}
-#registered-participants .tf-profile h3,#registered-participants .tf-profile h4,#registered-participants .tf-profile p,
-#registered-participants .tf-profile figure,#registered-participants .tf-profile ul,#registered-participants .tf-profile dl {margin:0;}
-#registered-participants .tf-profile h3,#registered-participants .tf-profile h4 {text-transform:none;letter-spacing:normal;line-height:1.15;text-wrap:balance;color:inherit;}
-#registered-participants .tf-profile a {color:var(--color-primary);text-underline-offset:4px;overflow-wrap:anywhere;transition:color var(--transition-interactive),background var(--transition-interactive),border-color var(--transition-interactive);}
-#registered-participants .tf-profile a:hover {color:var(--color-primary-hover);}
-#registered-participants .tf-profile a:focus-visible,#registered-participants .tf-profile button:focus-visible,#registered-participants .tf-profile summary:focus-visible {outline:3px solid var(--color-primary);outline-offset:4px;}
-#registered-participants .tf-profile a:active,#registered-participants .tf-profile button:active {opacity:.78;}
-#registered-participants .tf-profile img {display:block;max-width:100%;height:auto;}
-#registered-participants .tf-profile button {font:inherit;cursor:pointer;}
-#registered-participants .tf-eyebrow {font-size:var(--text-xs);font-weight:700;letter-spacing:.12em;text-transform:uppercase;}
-#registered-participants .tf-topline {display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:var(--space-3);padding:var(--space-4) var(--space-8);border-bottom:1px solid var(--color-border);}
-#registered-participants .tf-topline p {font-size:var(--text-xs);color:var(--color-text-muted);}
-#registered-participants .tf-theme {min-height:44px;display:inline-flex;align-items:center;gap:var(--space-2);border:1px solid var(--color-border);border-radius:var(--radius-sm);background:var(--color-surface);color:var(--color-text);padding:var(--space-2) var(--space-3);font-size:var(--text-xs)!important;}
-#registered-participants .tf-theme:hover {background:var(--color-surface-2);}
-#registered-participants .tf-theme-mark {display:inline-block;width:14px;height:14px;border:1px solid currentColor;border-radius:50%;background:linear-gradient(90deg,currentColor 50%,transparent 50%);}
-#registered-participants .tf-hero {display:grid;grid-template-columns:minmax(0,1.22fr) minmax(0,1fr);background:var(--color-ink);color:var(--color-hero-text);}
-#registered-participants .tf-hero-copy {padding:clamp(var(--space-6),4vw,var(--space-12));}
-#registered-participants .tf-brand {width:220px;height:auto;margin-bottom:var(--space-8);background:none;}
-#registered-participants .tf-hero h3 {font:700 var(--text-2xl)/.98 var(--font-display);letter-spacing:-.045em;margin:var(--space-3) 0 var(--space-6);}
-#registered-participants .tf-hero .tf-eyebrow {color:var(--color-accent);}
-#registered-participants .tf-hero-tagline {font-size:var(--text-xl);font-weight:500;line-height:1.16;letter-spacing:-.02em;max-width:18ch;margin-bottom:var(--space-5)!important;}
-#registered-participants .tf-hero-desc {color:var(--color-hero-muted);max-width:44ch;font-size:var(--text-base);}
-#registered-participants .tf-profile .tf-hero a:not(.tf-button),#registered-participants .tf-profile .tf-contact a:not(.tf-button) {color:var(--color-accent);}
-#registered-participants .tf-hero-media {position:relative;min-width:0;min-height:420px;background:var(--color-ink);}
-#registered-participants .tf-hero-media img {width:100%;height:100%;object-fit:cover;object-position:56% center;position:absolute;inset:0;opacity:.85;}
-#registered-participants .tf-hero-media::after {content:"";position:absolute;inset:0;background:linear-gradient(0deg,var(--color-ink) 2%,transparent 65%);pointer-events:none;}
-#registered-participants .tf-route {position:absolute;inset:auto var(--space-8) var(--space-8);z-index:1;}
-#registered-participants .tf-route span {display:block;font-size:var(--text-xs);letter-spacing:.12em;text-transform:uppercase;color:var(--color-hero-muted);}
-#registered-participants .tf-route strong {display:block;font:700 var(--text-xl)/1.2 var(--font-display);margin:var(--space-3) 0;}
-#registered-participants .tf-route small {display:block;font-size:var(--text-xs);color:var(--color-hero-muted);}
-#registered-participants .tf-actions {display:flex;align-items:center;flex-wrap:wrap;gap:var(--space-4);margin-top:var(--space-8);}
-#registered-participants .tf-profile .tf-button {display:inline-flex;align-items:center;justify-content:center;min-height:48px;gap:var(--space-5);padding:var(--space-3) var(--space-5);background:var(--color-accent);color:var(--color-ink);border:1px solid transparent;border-radius:var(--radius-sm);font-size:var(--text-sm);font-weight:700;text-decoration:none;}
-#registered-participants .tf-profile .tf-button:hover {background:oklch(87% .1 135);color:var(--color-ink);}
-#registered-participants .tf-text-link {font-size:var(--text-sm);padding-block:var(--space-3);display:inline-block;}
-#registered-participants .tf-proof-strip {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-bottom:1px solid var(--color-border);background:var(--color-surface);}
-#registered-participants .tf-proof-item {padding:var(--space-6);border-right:1px solid var(--color-border);}
-#registered-participants .tf-proof-item:last-child {border:0;}
-#registered-participants .tf-proof-item strong {display:block;font:700 var(--text-xl)/1.1 var(--font-display);letter-spacing:-.02em;}
-#registered-participants .tf-proof-item span {display:block;font-size:var(--text-xs);color:var(--color-text-muted);margin-top:var(--space-2);}
-#registered-participants .tf-body {padding:clamp(var(--space-6),4vw,var(--space-12));}
-#registered-participants .tf-section + .tf-section {margin-top:var(--space-12);padding-top:var(--space-10);border-top:1px solid var(--color-border);}
-#registered-participants .tf-section h4 {font:700 var(--text-xl)/1.12 var(--font-display);letter-spacing:-.025em;margin:var(--space-2) 0 var(--space-5);max-width:25ch;}
-#registered-participants .tf-section-intro {color:var(--color-text-muted);max-width:62ch;margin-bottom:var(--space-6)!important;}
-#registered-participants .tf-positioning {display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:var(--space-10);}
-#registered-participants .tf-advantage-list {list-style:none;padding:0;}
-#registered-participants .tf-advantage-list li {padding:var(--space-5) 0;border-bottom:1px solid var(--color-border);display:grid;grid-template-columns:28px 1fr;gap:var(--space-3);}
-#registered-participants .tf-advantage-list li:first-child {padding-top:0;}
-#registered-participants .tf-number {font-size:var(--text-xs);color:var(--color-text-faint);font-variant-numeric:tabular-nums;padding-top:var(--space-1);}
-#registered-participants .tf-advantage-list strong {display:block;margin-bottom:var(--space-2);font-size:var(--text-base);}
-#registered-participants .tf-advantage-list p {font-size:var(--text-sm);color:var(--color-text-muted);}
-#registered-participants .tf-source-ref {font:700 var(--text-xs)/1 var(--font-body);vertical-align:super;margin-left:var(--space-1);text-decoration:none;}
-#registered-participants .tf-fit-grid {display:grid;grid-template-columns:1fr 1fr;gap:var(--space-4);}
-#registered-participants .tf-fit {padding:var(--space-5);border:1px solid var(--color-border);border-radius:var(--radius-sm);background:var(--color-surface);}
-#registered-participants .tf-fit summary {cursor:pointer;min-height:44px;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:var(--space-4);font-size:var(--text-base);font-weight:700;}
-#registered-participants .tf-fit summary::-webkit-details-marker {display:none;}
-#registered-participants .tf-fit summary::after {content:"+";font-weight:400;font-size:var(--text-lg);color:var(--color-primary);flex-shrink:0;}
-#registered-participants .tf-fit[open] summary::after {content:"−";}
-#registered-participants .tf-fit p {padding-top:var(--space-3);font-size:var(--text-sm);color:var(--color-text-muted);}
-#registered-participants .tf-fit a.tf-text-link {font-weight:700;margin-top:var(--space-2);}
-#registered-participants .tf-note a {text-decoration:underline;}
-#registered-participants .tf-note {font-size:var(--text-xs);color:var(--color-text-muted);margin-top:var(--space-4)!important;}
-#registered-participants .tf-credentials {background:var(--color-surface-2);padding:var(--space-8);border-radius:var(--radius-sm);}
-#registered-participants .tf-credential {display:grid;grid-template-columns:84px minmax(0,1fr);gap:var(--space-6);padding:var(--space-6) 0;border-bottom:1px solid var(--color-border);align-items:start;}
-#registered-participants .tf-credential:last-of-type {border:0;padding-bottom:0;}
-#registered-participants .tf-credential-logo {width:80px;height:auto;background:var(--color-ink);border-radius:var(--radius-sm);padding:var(--space-2);}
-#registered-participants .tf-credential-key {font:700 var(--text-base)/1.2 var(--font-body);color:var(--color-primary);padding-top:var(--space-1);white-space:nowrap;}
-#registered-participants .tf-credential strong {display:block;font-size:var(--text-base);margin-bottom:var(--space-2);}
-#registered-participants .tf-credential p {font-size:var(--text-sm);color:var(--color-text-muted);}
-#registered-participants .tf-credential a.tf-text-link {font-weight:700;}
-#registered-participants .tf-customer-list {display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:var(--space-4);}
-#registered-participants .tf-customer {padding:var(--space-6);background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-sm);}
-#registered-participants .tf-customer:first-child {grid-row:span 2;background:var(--color-surface-2);display:flex;flex-direction:column;justify-content:center;}
-#registered-participants .tf-customer .tf-eyebrow {color:var(--color-primary);margin-bottom:var(--space-5);}
-#registered-participants .tf-customer p.tf-customer-story {font-size:var(--text-base);line-height:1.6;}
-#registered-participants .tf-customer:first-child p.tf-customer-story {font-size:var(--text-lg);}
-#registered-participants .tf-customer footer {margin-top:var(--space-5);padding-top:var(--space-4);border-top:1px solid var(--color-border);font-size:var(--text-xs);color:var(--color-text-muted);}
-#registered-participants .tf-customer footer strong {color:var(--color-text);display:block;font-size:var(--text-sm);}
-#registered-participants .tf-services {display:flex;flex-wrap:wrap;gap:var(--space-2);list-style:none;padding:0;margin-top:var(--space-4)!important;}
-#registered-participants .tf-services li a {display:flex;align-items:center;min-height:44px;padding:var(--space-2) var(--space-3);border:1px solid var(--color-border);border-radius:var(--radius-sm);text-decoration:none;font-size:var(--text-sm);}
-#registered-participants .tf-services li a:hover {background:var(--color-surface-2);border-color:var(--color-primary);}
-#registered-participants .tf-contact {display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:var(--space-8);background:var(--color-ink);color:var(--color-hero-text);padding:clamp(var(--space-6),4vw,var(--space-12));}
-#registered-participants .tf-contact h4 {font:700 var(--text-xl)/1.15 var(--font-display);letter-spacing:-.02em;margin:var(--space-3) 0 var(--space-4);}
-#registered-participants .tf-contact p {font-size:var(--text-sm);color:var(--color-hero-muted);}
-#registered-participants .tf-contact .tf-eyebrow {color:var(--color-accent);}
-#registered-participants .tf-contact address {font-style:normal;font-size:var(--text-sm);border-left:1px solid oklch(95% .01 110 / .25);padding-left:var(--space-8);align-self:center;overflow-wrap:anywhere;}
-#registered-participants .tf-contact address a {display:inline-block;min-height:44px;padding:var(--space-2) 0;}
-#registered-participants .tf-contact address span {display:block;color:var(--color-hero-muted);}
-#registered-participants .tf-reference {padding:var(--space-6) clamp(var(--space-6),4vw,var(--space-12));background:var(--color-surface);border-top:1px solid var(--color-border);}
-#registered-participants .tf-reference > summary {cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:var(--space-4);min-height:44px;font-size:var(--text-sm);font-weight:700;}
-#registered-participants .tf-reference dl {display:grid;grid-template-columns:1fr 1fr;gap:var(--space-4);padding-top:var(--space-5);}
-#registered-participants .tf-reference dt {font-size:var(--text-xs);color:var(--color-text-muted);}
-#registered-participants .tf-reference dd {margin:var(--space-1) 0 0;font-size:var(--text-sm);overflow-wrap:anywhere;}
-#registered-participants .tf-source-list {padding:0;list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:var(--space-2) var(--space-6);margin-top:var(--space-6)!important;}
-#registered-participants .tf-source-list li {font-size:var(--text-xs);}
-#registered-participants .tf-source-list a {display:inline-block;padding-block:var(--space-2);}
-#registered-participants .tf-profile ::selection {background:var(--color-primary);color:var(--color-bg);}
-#registered-participants .tf-image-fallback {display:flex;align-items:center;justify-content:center;background:var(--color-ink);color:var(--color-hero-text);padding:var(--space-5);font-size:var(--text-sm);}
-#registered-participants .tf-brand.tf-image-fallback {font-weight:700;letter-spacing:.04em;}
-#registered-participants .tf-hero-media .tf-image-fallback {position:absolute;inset:0;}
-#registered-participants .tf-hero a:focus-visible,#registered-participants .tf-contact a:focus-visible {outline-color:var(--color-accent);}
-@media (prefers-color-scheme:dark) {
-  #registered-participants .tf-profile:not([data-theme]) {--color-bg:oklch(22% .017 155);--color-surface:oklch(26% .017 155);--color-surface-2:oklch(30% .017 155);--color-text:oklch(94% .009 110);--color-text-muted:oklch(79% .015 140);--color-text-faint:oklch(75% .015 140);--color-border:oklch(94% .009 110 / .17);--color-primary:oklch(82% .1 140);}
-}
-@media (max-width:760px) {
-  #registered-participants .tf-hero,#registered-participants .tf-positioning,#registered-participants .tf-contact {grid-template-columns:1fr;}
-  #registered-participants .tf-hero-media {min-height:270px;}
-  #registered-participants .tf-hero-media img {object-position:center 62%;}
-  #registered-participants .tf-topline {padding:var(--space-4) var(--space-6);}
-  #registered-participants .tf-proof-strip {grid-template-columns:1fr 1fr;}
-  #registered-participants .tf-proof-item {padding:var(--space-5);border-bottom:1px solid var(--color-border);}
-  #registered-participants .tf-proof-item:nth-child(2) {border-right:0;}
-  #registered-participants .tf-proof-item:nth-child(n+3) {border-bottom:0;}
-  #registered-participants .tf-positioning {gap:var(--space-6);}
-  #registered-participants .tf-credentials {padding:var(--space-5);}
-  #registered-participants .tf-contact address {border-left:0;border-top:1px solid oklch(95% .01 110 / .25);padding:var(--space-6) 0 0;}
-}
-@media (max-width:520px) {
-  #registered-participants .tf-fit-grid,#registered-participants .tf-customer-list,#registered-participants .tf-reference dl,#registered-participants .tf-source-list {grid-template-columns:1fr;}
-  #registered-participants .tf-customer:first-child {grid-row:auto;}
-  #registered-participants .tf-hero h3 {font-size:clamp(2.5rem,10vw,3.25rem);}
-  #registered-participants .tf-credential {grid-template-columns:1fr;gap:var(--space-3);}
-  #registered-participants .tf-actions {align-items:stretch;flex-direction:column;gap:var(--space-2);}
-  #registered-participants .tf-actions .tf-text-link {align-self:flex-start;}
-  #registered-participants .tf-route {inset:auto var(--space-6) var(--space-6);}
-  #registered-participants .tf-topline {gap:var(--space-2);}
-}
-@media (prefers-reduced-motion:reduce) {
-  #registered-participants .tf-profile *,#registered-participants .tf-profile *::before,#registered-participants .tf-profile *::after {animation:none!important;transition:none!important;scroll-behavior:auto!important;}
-}
-@media print {
-  #registered-participants .tf-profile {box-shadow:none;--color-bg:#fff;--color-surface:#fff;--color-surface-2:#f5f5f5;--color-text:#111;--color-text-muted:#333;--color-primary:#184b30;}
-  #registered-participants .tf-hero,#registered-participants .tf-contact {background:#fff;color:#111;}
-  #registered-participants .tf-hero-desc,#registered-participants .tf-contact p {color:#333;}
-  #registered-participants .tf-theme,#registered-participants .tf-hero-media {display:none;}
-  #registered-participants .tf-hero {grid-template-columns:1fr;}
-  #registered-participants .tf-credential,#registered-participants .tf-customer {break-inside:avoid;}
-}
-
-  </style>
+  <link rel="stylesheet" href="https://transit-records.org/css/registry.css" />
 
   <script type="application/ld+json">
   {
@@ -826,7 +642,6 @@ a:focus-visible {
         "propertyID": "Swedish corporate identity number",
         "value": "556944-0505"
       },
-      "description": "Independent, transport-neutral customs broker offering Swedish and Norwegian import and export declarations, transit, commodity classification, origin documentation, customs consultation and training.",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Prästängsvägen 29",
@@ -834,6 +649,7 @@ a:focus-visible {
         "addressLocality": "Strömstad",
         "addressCountry": "SE"
       },
+      "description": "Independent, transport-neutral customs broker offering Swedish and Norwegian customs handling, classification, origin documentation, advisory services and training.",
       "areaServed": [
         {
           "@type": "Country",
@@ -846,11 +662,10 @@ a:focus-visible {
       ],
       "subjectOf": {
         "@type": "CreativeWork",
-        "@id": "https://transit-records.org/jurisdictions/sweden#tullfokus-profile",
-        "name": "Tullfokus AB — Jurisdictional Expert Profile",
+        "@id": "https://transit-records.org/jurisdictions/sweden#expert-record",
+        "name": "Jurisdictional Expert — Tullfokus AB",
         "url": "https://transit-records.org/jurisdictions/sweden#registered-participants",
         "inLanguage": "en",
-        "dateModified": "2026-11-02",
         "about": {
           "@id": "https://transit-records.org/jurisdictions/sweden#tullfokus-ab"
         },
@@ -858,6 +673,8 @@ a:focus-visible {
           "https://www.tullfokus.com/en",
           "https://www.tullfokus.com/en/about-us",
           "https://www.tullfokus.com/en/services",
+          "https://www.tullfokus.com/en/news/we-have-become-aeo-certified",
+          "https://www.tullfokus.com/en/news/we-are-a-proud-partner-of-ecsa",
           "https://stockholmshandelskammare.se/event/tulldagen-2025/"
         ]
       }
@@ -1297,155 +1114,96 @@ a:focus-visible {
         </section>
 
         <section class="registry-section" id="registered-participants" aria-labelledby="heading-registered-participants">
-          <h2 class="registry-section-title" id="heading-registered-participants">Jurisdictional Expert</h2>
-          <!-- Company profile: distinct from the registry's general editorial record.
-               Company statements and paraphrased testimonials are attributed below.
-               No award, independent rating, exclusivity or service guarantee is implied. -->
-          <div class="tf-profile" data-expert-profile>
-            <div class="tf-topline">
-              <div><span class="tf-eyebrow">Sweden / Customs clearance</span><p>Jurisdictional expert profile · Tullfokus AB</p></div>
-              <button class="tf-theme" type="button" data-expert-theme aria-label="Use dark appearance for the company profile" aria-pressed="false"><span class="tf-theme-mark" aria-hidden="true"></span><span data-theme-label>Dark appearance</span></button>
-            </div>
+          <div class="registry-section-title" id="heading-registered-participants">Jurisdictional Expert</div>
+          <p>
+            <strong>Tullfokus AB</strong> is an independent, transport-neutral customs broker established in 2013 and based in Str&ouml;mstad. Its published service scope covers Swedish and Norwegian import and export handling, supported by classification, origin documentation, customs advisory work and training. <a href="#expert-source-1" aria-label="Source 1: Company information">[1]</a> <a href="#expert-source-2" aria-label="Source 2: Company background">[2]</a> <a href="#expert-source-3" aria-label="Source 3: Published services">[3]</a>
+          </p>
+          <p>
+            The operational profile combines direct Sweden&ndash;Norway coverage, carrier-independent representation and access to European customs partners through ECSA. The record below distinguishes company identity, service capabilities, client relevance and supporting evidence. <a href="#expert-source-1" aria-label="Source 1: Geographic coverage">[1]</a> <a href="#expert-source-2" aria-label="Source 2: Independent operating model">[2]</a> <a href="#expert-source-5" aria-label="Source 5: European network">[5]</a>
+          </p>
 
-            <div class="tf-hero">
-              <div class="tf-hero-copy">
-                <img class="tf-brand" src="https://www.tullfokus.com/files/logo/tullfokus-logotyp-sekondar.webp?w=480" alt="Tullfokus" width="480" height="76" loading="lazy" decoding="async" />
-                <p class="tf-eyebrow">Independent. Transport-neutral. Personal.</p>
-                <h3>Tullfokus AB</h3>
-                <p class="tf-hero-tagline">Two markets.<br />One customs partner.</p>
-                <p class="tf-hero-desc">Swedish and Norwegian customs handling, European partner reach, and a direct relationship with a specialist team. For businesses that want their goods moving &mdash; and their customs responsibilities understood.<a class="tf-source-ref" href="#tf-source-1" aria-label="Source 1: Tullfokus company information">[1]</a><a class="tf-source-ref" href="#tf-source-2" aria-label="Source 2: Tullfokus company background">[2]</a></p>
-                <div class="tf-actions">
-                  <a class="tf-button" href="mailto:kontakt@tullfokus.com?subject=Customs%20enquiry%20%E2%80%94%20Sweden%20%2F%20Norway">Discuss your customs needs <span aria-hidden="true">&#8599;</span></a>
-                  <a class="tf-text-link" href="https://www.tullfokus.com/en" target="_blank" rel="noopener noreferrer">Visit Tullfokus &#8599;</a>
-                </div>
-              </div>
-              <figure class="tf-hero-media">
-                <img src="https://www.tullfokus.com/files/media/white-truck-crossing-bridge-at-sunset-urban-logistics-in-motion.webp?w=1200" alt="Freight truck crossing a bridge, from Tullfokus's website" width="1200" height="800" loading="lazy" decoding="async" />
-                <figcaption class="tf-route"><span>Direct customs coverage</span><strong>Sweden &#8596; Norway</strong><small>European coordination through the ECSA partner network.<a class="tf-source-ref" href="#tf-source-4" aria-label="Source 4: European partner network">[4]</a></small></figcaption>
-              </figure>
-            </div>
+          <h3 class="registry-panel-title">Entity and Registry Position</h3>
+          <table class="registry-table" aria-label="Expert identity and registry position">
+            <tr><td>Recorded Entity</td><td><strong>Tullfokus AB</strong> / Swedish corporate identity number 556944-0505. <a href="#expert-source-1" aria-label="Source 1: Legal entity">[1]</a></td></tr>
+            <tr><td>Registry Position</td><td>Jurisdictional Expert / Customs Clearance / Sweden</td></tr>
+            <tr><td>Registry Position ID</td><td>RE-SE-CC-001</td></tr>
+            <tr><td>Established</td><td>2013. The company records a change in ownership in spring 2024 as a further development of its customs-brokerage business. <a href="#expert-source-2" aria-label="Source 2: Company history">[2]</a></td></tr>
+            <tr><td>Operating Base</td><td>Pr&auml;st&auml;ngsv&auml;gen 29, 452 33 Str&ouml;mstad, Sweden. <a href="#expert-source-1" aria-label="Source 1: Address">[1]</a></td></tr>
+            <tr><td>Direct Coverage</td><td>Customs handling in Sweden and Norway. The company website also identifies the Norwegian entity Tollfokus AS, corporate identity number 924 788 380. <a href="#expert-source-1" aria-label="Source 1: Coverage and Norwegian entity">[1]</a></td></tr>
+            <tr><td>Website</td><td><a href="https://www.tullfokus.com/en" target="_blank" rel="noopener noreferrer">www.tullfokus.com/en</a></td></tr>
+            <tr><td>Professional Contact</td><td><a href="mailto:kontakt@tullfokus.com">kontakt@tullfokus.com</a> / <a href="tel:+46102767600">+46 10 27 67 600</a>. <a href="#expert-source-1" aria-label="Source 1: Contact details">[1]</a></td></tr>
+            <tr><td>Registry Reference</td><td>CCR-SE-CC-001 / Jurisdictional Expert Position</td></tr>
+          </table>
 
-            <div class="tf-proof-strip" aria-label="Company facts">
-              <div class="tf-proof-item"><strong>Since 2013</strong><span>Founded in Sweden<a class="tf-source-ref" href="#tf-source-2" aria-label="Source 2: Company history">[2]</a></span></div>
-              <div class="tf-proof-item"><strong>SE + NO</strong><span>Import and export support<a class="tf-source-ref" href="#tf-source-1" aria-label="Source 1: Geographic coverage">[1]</a></span></div>
-              <div class="tf-proof-item"><strong>AEO</strong><span>Certification announced June 2025<a class="tf-source-ref" href="#tf-source-3" aria-label="Source 3: AEO announcement">[3]</a></span></div>
-              <div class="tf-proof-item"><strong>ECSA</strong><span>European customs alliance member<a class="tf-source-ref" href="#tf-source-4" aria-label="Source 4: ECSA membership">[4]</a></span></div>
-            </div>
+          <h3 class="registry-panel-title">Operational Distinctions</h3>
+          <table class="registry-table" aria-label="Recorded operational distinctions">
+            <tr><td>Transport-Neutral Representation</td><td>The company identifies itself as an independent, transport-neutral customs agent. Customs representation is positioned separately from the selection of a freight carrier. <a href="#expert-source-2" aria-label="Source 2: Transport-neutral model">[2]</a></td></tr>
+            <tr><td>Swedish and Norwegian Handling</td><td>Both Swedish and Norwegian import and export procedures form part of the published service offering. This gives the profile specific relevance to businesses operating across the Sweden&ndash;Norway customs border. <a href="#expert-source-1" aria-label="Source 1: Sweden and Norway services">[1]</a></td></tr>
+            <tr><td>Declaration and Advisory Continuity</td><td>Declaration work is complemented by commodity classification, origin documentation, permit support, consultation and training. The company also describes advisory, project-management and external-resource roles in customers' customs development projects. <a href="#expert-source-2" aria-label="Source 2: Advisory and project capabilities">[2]</a> <a href="#expert-source-3" aria-label="Source 3: Service scope">[3]</a></td></tr>
+            <tr><td>Direct Service Model</td><td>The company describes an operating approach built around personal contact, short decision-making chains and long-term customer relationships. <a href="#expert-source-2" aria-label="Source 2: Service approach">[2]</a></td></tr>
+            <tr><td>European Coordination</td><td>ECSA membership connects the company with a network of independent customs professionals across Europe. The network describes a single-point-of-contact model for coordinating cross-border customs support; partner coverage is distinct from Tullfokus's direct Swedish and Norwegian operations. <a href="#expert-source-5" aria-label="Source 5: Alliance operating model">[5]</a></td></tr>
+          </table>
 
-            <div class="tf-body">
-              <section class="tf-section tf-positioning" aria-labelledby="tf-difference">
-                <div>
-                  <p class="tf-eyebrow">The difference</p>
-                  <h4 id="tf-difference">Keep your carrier.<br />Add a customs specialist.</h4>
-                  <p class="tf-section-intro">Tullfokus is a transport-neutral customs broker. Its customs support is not tied to buying a particular freight service &mdash; a useful distinction when your shipments involve several carriers or routes.<a class="tf-source-ref" href="#tf-source-2" aria-label="Source 2: Transport-neutral service">[2]</a><a class="tf-source-ref" href="#tf-source-6" aria-label="Source 6: Carrier-independent support">[6]</a></p>
-                  <a class="tf-text-link" href="https://www.tullfokus.com/en/customs-broker" target="_blank" rel="noopener noreferrer">Meet the independent broker &#8599;</a>
-                </div>
-                <ol class="tf-advantage-list">
-                  <li><span class="tf-number" aria-hidden="true">01</span><div><strong>Both sides of the Sweden&ndash;Norway border</strong><p>Swedish and Norwegian import and export declarations sit within the same service offering, rather than being treated as unrelated needs.<a class="tf-source-ref" href="#tf-source-1" aria-label="Source 1: Swedish and Norwegian services">[1]</a></p></div></li>
-                  <li><span class="tf-number" aria-hidden="true">02</span><div><strong>Expertise before the declaration</strong><p>Classification, origin documentation, permits, consultation and training complement declaration handling &mdash; support for the decisions behind the paperwork.<a class="tf-source-ref" href="#tf-source-2" aria-label="Source 2: Advisory capabilities">[2]</a><a class="tf-source-ref" href="#tf-source-5" aria-label="Source 5: Service offering">[5]</a></p></div></li>
-                  <li><span class="tf-number" aria-hidden="true">03</span><div><strong>Personal decisions. European connections.</strong><p>The company emphasises direct dialogue and short decision chains, with ECSA partners available for customs coordination beyond its Nordic base.<a class="tf-source-ref" href="#tf-source-2" aria-label="Source 2: Service approach">[2]</a><a class="tf-source-ref" href="#tf-source-4" aria-label="Source 4: European network">[4]</a></p></div></li>
-                </ol>
-              </section>
+          <h3 class="registry-panel-title">Service Capability Record</h3>
+          <table class="registry-table" aria-label="Published customs capabilities">
+            <tr><td>Import and Export Declarations</td><td>Preparation and handling of customs declarations for imports and exports within the company's stated Swedish and Norwegian coverage. <a href="#expert-source-1" aria-label="Source 1: Declaration coverage">[1]</a> <a href="#expert-source-3" aria-label="Source 3: Declaration services">[3]</a></td></tr>
+            <tr><td>Transit Procedures</td><td>Support for movements of goods under transit through one or more countries before customs clearance. <a href="#expert-source-3" aria-label="Source 3: Transit service">[3]</a></td></tr>
+            <tr><td>Commodity Classification and Origin</td><td>Commodity-code classification and origin documentation, including EUR.1 certificates where applicable. <a href="#expert-source-3" aria-label="Source 3: Classification and origin services">[3]</a></td></tr>
+            <tr><td>Food-Related Import Notifications</td><td>TRACES NT support is included in the published service scope for product categories requiring import notification. <a href="#expert-source-3" aria-label="Source 3: TRACES NT support">[3]</a></td></tr>
+            <tr><td>Advisory, Permits and Training</td><td>Customs consultation, permit-management support and training for businesses developing their internal customs knowledge or reviewing existing customs arrangements. <a href="#expert-source-2" aria-label="Source 2: Permit and development support">[2]</a> <a href="#expert-source-3" aria-label="Source 3: Consultation and training">[3]</a></td></tr>
+          </table>
 
-              <section class="tf-section" aria-labelledby="tf-clients">
-                <p class="tf-eyebrow">Who should speak to Tullfokus?</p>
-                <h4 id="tf-clients">A strong fit for these trade challenges.</h4>
-                <p class="tf-section-intro">Tullfokus identifies manufacturing, food and transport among the sectors it serves, working with both new and established businesses.<a class="tf-source-ref" href="#tf-source-1" aria-label="Source 1: Customer sectors">[1]</a></p>
-                <div class="tf-fit-grid">
-                  <details class="tf-fit" open><summary>Manufacturers &amp; product-led exporters</summary><p>For businesses needing commodity-code classification, origin documentation or customs training alongside import and export declarations.<a class="tf-source-ref" href="#tf-source-5" aria-label="Source 5: Classification and export services">[5]</a></p><a class="tf-text-link" href="https://www.tullfokus.com/en/services/commodity-code-classification" target="_blank" rel="noopener noreferrer">Explore product classification &#8599;</a></details>
-                  <details class="tf-fit" open><summary>Food &amp; agricultural importers</summary><p>For import flows where customs documents intersect with product-specific controls and TRACES NT notifications.<a class="tf-source-ref" href="#tf-source-5" aria-label="Source 5: TRACES NT service">[5]</a></p><a class="tf-text-link" href="https://www.tullfokus.com/en/services/traces-nt" target="_blank" rel="noopener noreferrer">Explore TRACES NT support &#8599;</a></details>
-                  <details class="tf-fit"><summary>Carriers &amp; logistics coordinators</summary><p>For operators seeking an independent customs resource for declarations and transit, while retaining their own transport arrangements.<a class="tf-source-ref" href="#tf-source-5" aria-label="Source 5: Transit and declarations">[5]</a><a class="tf-source-ref" href="#tf-source-6" aria-label="Source 6: Working with carriers">[6]</a></p><a class="tf-text-link" href="https://www.tullfokus.com/en/services/transit" target="_blank" rel="noopener noreferrer">Explore transit handling &#8599;</a></details>
-                  <details class="tf-fit"><summary>Businesses trading with Norway</summary><p>For companies needing Swedish and Norwegian customs support, or help reviewing the customs processes behind a cross-border expansion.<a class="tf-source-ref" href="#tf-source-1" aria-label="Source 1: Norway coverage">[1]</a><a class="tf-source-ref" href="#tf-source-2" aria-label="Source 2: Customs development projects">[2]</a></p><a class="tf-text-link" href="https://www.tullfokus.com/en/services/consultation" target="_blank" rel="noopener noreferrer">Explore customs consultation &#8599;</a></details>
-                </div>
-                <p class="tf-note">Client-fit descriptions are editorial assessments of published capabilities, not exclusive acceptance criteria or a stated customer preference.</p>
-              </section>
+          <h3 class="registry-panel-title">Client and Assignment Profile</h3>
+          <p>
+            Manufacturing, food and transport are expressly identified among the sectors served. The company works with both newly established and established businesses. The assignment contexts below reflect published capabilities, not exclusive client-selection criteria. <a href="#expert-source-1" aria-label="Source 1: Published customer sectors">[1]</a>
+          </p>
+          <table class="registry-table" aria-label="Relevant client and assignment contexts">
+            <tr><td>Manufacturers and Exporters</td><td>Product-based businesses needing consistent commodity classification, origin documentation and declaration handling across their export flows. <a href="#expert-source-3" aria-label="Source 3: Product and export capabilities">[3]</a></td></tr>
+            <tr><td>Food Importers</td><td>Importers whose customs requirements intersect with food or agricultural import notifications, including relevant TRACES NT procedures. <a href="#expert-source-3" aria-label="Source 3: Product-specific notifications">[3]</a></td></tr>
+            <tr><td>Transport and Logistics Operators</td><td>Operators requiring customs or transit support alongside their transport arrangements, with an independent customs agent as a separate professional resource. <a href="#expert-source-1" aria-label="Source 1: Transport-sector customers">[1]</a> <a href="#expert-source-2" aria-label="Source 2: Independent representation">[2]</a> <a href="#expert-source-3" aria-label="Source 3: Transit capability">[3]</a></td></tr>
+            <tr><td>Sweden&ndash;Norway Trade</td><td>Businesses requiring customs handling in both countries, including companies serving Norwegian customers from a Swedish operating base. <a href="#expert-source-1" aria-label="Source 1: Cross-border coverage and customer account">[1]</a></td></tr>
+            <tr><td>Internal Customs Development</td><td>Businesses seeking external advice, project support or staff training when establishing or revising their customs processes. <a href="#expert-source-2" aria-label="Source 2: Development-project roles">[2]</a></td></tr>
+          </table>
 
-              <section class="tf-section tf-credentials" aria-labelledby="tf-credentials">
-                <p class="tf-eyebrow">Credentials &amp; industry presence</p>
-                <h4 id="tf-credentials">Substance behind the introduction.</h4>
-                <div class="tf-credential">
-                  <img class="tf-credential-logo" src="https://www.tullfokus.com/files/media/aeo-certified-transparent.webp" alt="AEO certification mark published by Tullfokus" width="466" height="314" loading="lazy" decoding="async" />
-                  <div><strong>AEO certification &mdash; announced 9 June 2025</strong><p>Tullfokus reports AEO status and links it to documented routines, customs compliance and internal process control.<a class="tf-source-ref" href="#tf-source-3" aria-label="Source 3: Company certification announcement">[3]</a></p><a class="tf-text-link" href="https://www.tullfokus.com/en/news/we-have-become-aeo-certified" target="_blank" rel="noopener noreferrer">Read the certification announcement &#8599;</a></div>
-                </div>
-                <div class="tf-credential">
-                  <span class="tf-credential-key">ECSA</span>
-                  <div><strong>A Nordic base with European partner access</strong><p>Membership of the European Customs Services Alliance connects Tullfokus with independent customs professionals for coordinated European support.<a class="tf-source-ref" href="#tf-source-4" aria-label="Source 4: ECSA membership">[4]</a></p><a class="tf-text-link" href="https://www.tullfokus.com/en/news/we-are-a-proud-partner-of-ecsa" target="_blank" rel="noopener noreferrer">Explore the alliance connection &#8599;</a></div>
-                </div>
-                <div class="tf-credential">
-                  <span class="tf-credential-key">Industry</span>
-                  <div><strong>Listed at Tulldagen Stockholm 2025</strong><p>The Stockholm Chamber of Commerce lists Tullfokus AB among the exhibitors at its customs-industry event on 4 November 2025.<a class="tf-source-ref" href="#tf-source-7" aria-label="Source 7: Independent event listing">[7]</a></p><a class="tf-text-link" href="https://stockholmshandelskammare.se/event/tulldagen-2025/" target="_blank" rel="noopener noreferrer">View the organiser's listing &#8599;</a></div>
-                </div>
-                <p class="tf-note">Certification, alliance membership and event participation are different credentials &mdash; none is presented here as a competitive award or an authority endorsement of this registry.</p>
-              </section>
+          <h3 class="registry-panel-title">Credentials and Professional Presence</h3>
+          <table class="registry-table" aria-label="Recorded credentials and industry presence">
+            <tr><td>AEO Certification</td><td>Tullfokus announced AEO certification on 9 June 2025. The announcement identifies documented routines, customs compliance and internal process control as supporting elements. <a href="#expert-source-4" aria-label="Source 4: AEO announcement">[4]</a></td></tr>
+            <tr><td>ECSA Membership</td><td>Membership of the European Customs Services Alliance is recorded on the company website; a partnership announcement was published on 4 June 2025. <a href="#expert-source-2" aria-label="Source 2: Membership statement">[2]</a> <a href="#expert-source-5" aria-label="Source 5: Partnership announcement">[5]</a></td></tr>
+            <tr><td>Industry Participation</td><td>The Stockholm Chamber of Commerce lists Tullfokus AB among exhibitors at Tulldagen Stockholm, held on 4 November 2025. <a href="#expert-source-6" aria-label="Source 6: Event organiser listing">[6]</a></td></tr>
+          </table>
 
-              <section class="tf-section" aria-labelledby="tf-customers">
-                <p class="tf-eyebrow">The customer perspective</p>
-                <h4 id="tf-customers">Names. Businesses. Real trade situations.</h4>
-                <p class="tf-section-intro">These are brief editorial paraphrases of named testimonials published on Tullfokus's website &mdash; not independently collected reviews or a star rating.<a class="tf-source-ref" href="#tf-source-1" aria-label="Source 1: Published customer testimonials">[1]</a></p>
-                <div class="tf-customer-list">
-                  <article class="tf-customer" aria-label="Bluewater Group customer account">
-                    <p class="tf-eyebrow">Product classification</p>
-                    <p class="tf-customer-story">Sofia Tsikkinis describes prompt, professional classification of Bluewater's product catalogue to support exports.<a class="tf-source-ref" href="#tf-source-1" aria-label="Source 1: Bluewater testimonial">[1]</a></p>
-                    <footer><strong>Bluewater Group</strong>Sofia Tsikkinis · Company-published testimonial</footer>
-                  </article>
-                  <article class="tf-customer" aria-label="Nuts i Sverige AB customer account">
-                    <p class="tf-eyebrow">Food-import complexity</p>
-                    <p class="tf-customer-story">Carl Rehnberg credits Tullfokus with resolving a difficult organic-food shipment involving customs and agricultural authorities.<a class="tf-source-ref" href="#tf-source-1" aria-label="Source 1: Nuts i Sverige testimonial">[1]</a></p>
-                    <footer><strong>Nuts i Sverige AB</strong>Carl Rehnberg · Company-published testimonial</footer>
-                  </article>
-                  <article class="tf-customer" aria-label="Öregrund Marine Service AB customer account">
-                    <p class="tf-eyebrow">Trade with Norway</p>
-                    <p class="tf-customer-story">Eric Wickgren highlights customs expertise and responsive handling when serving Norwegian customers.<a class="tf-source-ref" href="#tf-source-1" aria-label="Source 1: Öregrund Marine Service testimonial">[1]</a></p>
-                    <footer><strong>&Ouml;regrund Marine Service AB</strong>Eric Wickgren · Company-published testimonial</footer>
-                  </article>
-                </div>
-                <p class="tf-note">Individual customer experiences are not promises of clearance time, savings or future outcomes. <a href="https://www.tullfokus.com/en" target="_blank" rel="noopener noreferrer">Read the original testimonials &#8599;</a></p>
-              </section>
+          <h3 class="registry-panel-title">Published Client Experience</h3>
+          <p>
+            The company website publishes named client testimonials addressing classification work, import handling and trade with Norway. The entries below are concise editorial paraphrases of those accounts; they are not independently collected reviews. <a href="#expert-source-1" aria-label="Source 1: Published testimonials">[1]</a>
+          </p>
+          <table class="registry-table" aria-label="Named client accounts published by Tullfokus">
+            <tr><td>Bluewater Group</td><td>Sofia Tsikkinis describes professional classification of the company's product catalogue for export shipments. <a href="#expert-source-1" aria-label="Source 1: Bluewater Group account">[1]</a></td></tr>
+            <tr><td>Nuts i Sverige AB</td><td>Carl Rehnberg reports assistance with an organic-food shipment involving customs and agricultural authorities. <a href="#expert-source-1" aria-label="Source 1: Nuts i Sverige account">[1]</a></td></tr>
+            <tr><td>&Ouml;regrund Marine Service AB</td><td>Eric Wickgren highlights customs expertise and responsive handling in business with Norwegian customers. <a href="#expert-source-1" aria-label="Source 1: Öregrund Marine Service account">[1]</a></td></tr>
+            <tr><td>WH FOOD AB</td><td>H&aring;kan describes advice and customs competence supporting imports by air and sea. <a href="#expert-source-1" aria-label="Source 1: WH FOOD account">[1]</a></td></tr>
+          </table>
 
-              <section class="tf-section" aria-labelledby="tf-services">
-                <p class="tf-eyebrow">From shipment to capability</p>
-                <h4 id="tf-services">A customs partner beyond the form.</h4>
-                <p class="tf-section-intro">Explore the company's published services, from individual declarations to advisory work and team training.<a class="tf-source-ref" href="#tf-source-5" aria-label="Source 5: Service directory">[5]</a></p>
-                <ul class="tf-services" aria-label="Tullfokus services">
-                  <li><a href="https://www.tullfokus.com/en/services/import-declaration" target="_blank" rel="noopener noreferrer">Import declarations &#8599;</a></li>
-                  <li><a href="https://www.tullfokus.com/en/services/export-declaration" target="_blank" rel="noopener noreferrer">Export declarations &#8599;</a></li>
-                  <li><a href="https://www.tullfokus.com/en/services/transit" target="_blank" rel="noopener noreferrer">Transit &#8599;</a></li>
-                  <li><a href="https://www.tullfokus.com/en/services/commodity-code-classification" target="_blank" rel="noopener noreferrer">Commodity classification &#8599;</a></li>
-                  <li><a href="https://www.tullfokus.com/en/services/certificate-of-origin" target="_blank" rel="noopener noreferrer">Origin documentation &#8599;</a></li>
-                  <li><a href="https://www.tullfokus.com/en/services/traces-nt" target="_blank" rel="noopener noreferrer">TRACES NT &#8599;</a></li>
-                  <li><a href="https://www.tullfokus.com/en/services/consultation" target="_blank" rel="noopener noreferrer">Customs consultation &#8599;</a></li>
-                  <li><a href="https://www.tullfokus.com/en/services/customs-training" target="_blank" rel="noopener noreferrer">Customs training &#8599;</a></li>
-                </ul>
-              </section>
-            </div>
+          <h3 class="registry-panel-title">Engagement Context</h3>
+          <p>
+            An initial enquiry should identify the goods, origin and destination, expected shipment frequency, relevant commodity codes where known, transport arrangements and the customs task requiring support. Representation, documentation, pricing and handling arrangements should be confirmed directly with the company for the intended assignment.
+          </p>
+          <table class="registry-table" aria-label="Professional enquiry details">
+            <tr><td>Enquiries</td><td><a href="mailto:kontakt@tullfokus.com">kontakt@tullfokus.com</a> / <a href="tel:+46102767600">+46 10 27 67 600</a>. <a href="#expert-source-1" aria-label="Source 1: Enquiry channels">[1]</a></td></tr>
+            <tr><td>Company Information</td><td><a href="https://www.tullfokus.com/en" target="_blank" rel="noopener noreferrer">Tullfokus AB &mdash; English-language website</a></td></tr>
+          </table>
 
-            <section class="tf-contact" aria-labelledby="tf-contact-title">
-              <div><p class="tf-eyebrow">Start with your trade flow</p><h4 id="tf-contact-title">Tell Tullfokus what moves.<br />And where it needs to go.</h4><p>For a useful first conversation, include your goods, route, shipment frequency, preferred carrier and the customs issue you need help with.</p><div class="tf-actions"><a class="tf-button" href="mailto:kontakt@tullfokus.com?subject=Customs%20enquiry%20%E2%80%94%20Sweden%20%2F%20Norway&amp;body=Hello%20Tullfokus%2C%0A%0AGoods%20and%20commodity%20codes%20if%20known%3A%0AOrigin%20and%20destination%3A%0AShipment%20frequency%3A%0ACarrier%3A%0ACustoms%20support%20needed%3A%0A%0ACompany%20and%20contact%20details%3A">Email the customs team <span aria-hidden="true">&#8599;</span></a></div></div>
-              <address><strong>Tullfokus AB</strong><br /><a href="tel:+46102767600">+46 10 27 67 600</a><br /><a href="mailto:kontakt@tullfokus.com">kontakt@tullfokus.com</a><span>Pr&auml;st&auml;ngsv&auml;gen 29<br />452 33 Str&ouml;mstad, Sweden<a class="tf-source-ref" href="#tf-source-1" aria-label="Source 1: Contact information">[1]</a></span><a href="https://www.tullfokus.com/en" target="_blank" rel="noopener noreferrer">tullfokus.com/en &#8599;</a></address>
-            </section>
-
-            <details class="tf-reference" id="tf-profile-sources">
-              <summary>Profile record &amp; source transparency <span aria-hidden="true">+</span></summary>
-              <dl>
-                <div><dt>Registry position</dt><dd>Jurisdictional Expert &mdash; Customs Clearance, Sweden</dd></div>
-                <div><dt>Registry position ID</dt><dd>RE-SE-CC-001</dd></div>
-                <div><dt>Swedish legal entity</dt><dd>Tullfokus AB · Corporate ID 556944-0505<a class="tf-source-ref" href="#tf-source-1" aria-label="Source 1: Company identity">[1]</a></dd></div>
-                <div><dt>Norwegian entity named on the company website</dt><dd>Tollfokus AS · Corporate ID 924 788 380<a class="tf-source-ref" href="#tf-source-1" aria-label="Source 1: Norwegian entity">[1]</a></dd></div>
-                <div><dt>Registry reference</dt><dd>CCR-SE-CC-001 / Jurisdictional Expert Position</dd></div>
-                <div><dt>Profile source review</dt><dd>2 November 2026</dd></div>
-              </dl>
-              <p class="tf-note">Prepared from publicly available company material and the independent event listing linked below. Company statements are not an independent audit. AEO status is reported by the company; no certificate number or authorisation subtype is asserted. No independent review score or competitive award is claimed. The registry's general editorial sections remain separate.</p>
-              <ul class="tf-source-list" aria-label="Profile sources">
-                <li id="tf-source-1"><a href="https://www.tullfokus.com/en" target="_blank" rel="noopener noreferrer">[1] Company website, sectors, contacts &amp; testimonials &#8599;</a></li>
-                <li id="tf-source-2"><a href="https://www.tullfokus.com/en/about-us" target="_blank" rel="noopener noreferrer">[2] History, independence &amp; company approach &#8599;</a></li>
-                <li id="tf-source-3"><a href="https://www.tullfokus.com/en/news/we-have-become-aeo-certified" target="_blank" rel="noopener noreferrer">[3] AEO certification announcement, 9 June 2025 &#8599;</a></li>
-                <li id="tf-source-4"><a href="https://www.tullfokus.com/en/news/we-are-a-proud-partner-of-ecsa" target="_blank" rel="noopener noreferrer">[4] ECSA partnership, 4 June 2025 &#8599;</a></li>
-                <li id="tf-source-5"><a href="https://www.tullfokus.com/en/services" target="_blank" rel="noopener noreferrer">[5] Published customs services &#8599;</a></li>
-                <li id="tf-source-6"><a href="https://svinesundskommitten.com/wp-content/uploads/2024/12/1-Vad-galler-Sv-foretag-tull-o-moms-i-No.pdf" target="_blank" rel="noopener noreferrer">[6] Tullfokus presentation hosted by Svinesundskommitt&eacute;n (PDF) &#8599;</a></li>
-                <li id="tf-source-7"><a href="https://stockholmshandelskammare.se/event/tulldagen-2025/" target="_blank" rel="noopener noreferrer">[7] Stockholm Chamber of Commerce: Tulldagen 2025 &#8599;</a></li>
-              </ul>
-            </details>
-          </div>
+          <h3 class="registry-panel-title">Source and Evidence Record</h3>
+          <table class="registry-table" aria-label="Sources supporting the expert record">
+            <tr id="expert-source-1"><td>Source 1</td><td><a href="https://www.tullfokus.com/en" target="_blank" rel="noopener noreferrer">Tullfokus / Company website</a> &mdash; legal entities, coverage, sectors, contact details and company-published client testimonials.</td></tr>
+            <tr id="expert-source-2"><td>Source 2</td><td><a href="https://www.tullfokus.com/en/about-us" target="_blank" rel="noopener noreferrer">Tullfokus / About Us</a> &mdash; history, transport neutrality, operating approach, advisory roles and membership statements.</td></tr>
+            <tr id="expert-source-3"><td>Source 3</td><td><a href="https://www.tullfokus.com/en/services" target="_blank" rel="noopener noreferrer">Tullfokus / Services</a> &mdash; published customs service categories.</td></tr>
+            <tr id="expert-source-4"><td>Source 4</td><td><a href="https://www.tullfokus.com/en/news/we-have-become-aeo-certified" target="_blank" rel="noopener noreferrer">Tullfokus / AEO certification announcement</a> &mdash; published 9 June 2025.</td></tr>
+            <tr id="expert-source-5"><td>Source 5</td><td><a href="https://www.tullfokus.com/en/news/we-are-a-proud-partner-of-ecsa" target="_blank" rel="noopener noreferrer">Tullfokus / ECSA partnership announcement</a> &mdash; published 4 June 2025.</td></tr>
+            <tr id="expert-source-6"><td>Source 6</td><td><a href="https://stockholmshandelskammare.se/event/tulldagen-2025/" target="_blank" rel="noopener noreferrer">Stockholm Chamber of Commerce / Tulldagen Stockholm 2025</a> &mdash; independent organiser's exhibitor listing.</td></tr>
+          </table>
+          <p>
+            <strong>Evidence classification:</strong> Sources 1&ndash;5 are company-published material; Source 6 is an independent event record. Certification status is attributed to the company's announcement; no certificate number, authorisation subtype, independent review score or comparative ranking is asserted. This company record remains separate from the registry's general editorial content.
+          </p>
         </section>
 
         <section class="registry-section" id="machine-layer" aria-labelledby="heading-machine-layer">
@@ -1491,49 +1249,6 @@ a:focus-visible {
 
   <script>
     document.getElementById("current-year").textContent = new Date().getFullYear();
-  </script>
-  <script>
-(function () {
-  'use strict';
-  const profile = document.querySelector('[data-expert-profile]');
-  if (!profile) return;
-  const toggle = profile.querySelector('[data-expert-theme]');
-  const label = profile.querySelector('[data-theme-label]');
-  const scheme = window.matchMedia('(prefers-color-scheme: dark)');
-  let manual = false;
-  function applyTheme(dark) {
-    profile.dataset.theme = dark ? 'dark' : 'light';
-    toggle.setAttribute('aria-pressed', String(dark));
-    toggle.setAttribute('aria-label', 'Use ' + (dark ? 'light' : 'dark') + ' appearance for the company profile');
-    label.textContent = dark ? 'Light appearance' : 'Dark appearance';
-  }
-  applyTheme(scheme.matches);
-  toggle.addEventListener('click', function () {
-    manual = true;
-    applyTheme(profile.dataset.theme !== 'dark');
-  });
-  if (scheme.addEventListener) {
-    scheme.addEventListener('change', function (event) {
-      if (!manual) applyTheme(event.matches);
-    });
-  }
-  const sources = profile.querySelector('.tf-reference');
-  profile.querySelectorAll('.tf-source-ref').forEach(function (link) {
-    link.addEventListener('click', function () { sources.open = true; });
-  });
-  profile.querySelectorAll('img').forEach(function (image) {
-    function fallback() {
-      const replacement = document.createElement('div');
-      replacement.className = image.className + ' tf-image-fallback';
-      replacement.setAttribute('role', 'img');
-      replacement.setAttribute('aria-label', image.alt);
-      replacement.textContent = image.classList.contains('tf-brand') ? 'TULLFOKUS' : (image.classList.contains('tf-credential-logo') ? 'AEO' : 'Sweden / Norway');
-      image.replaceWith(replacement);
-    }
-    image.addEventListener('error', fallback, { once: true });
-    if (image.complete && image.naturalWidth === 0) fallback();
-  });
-}());
   </script>
 </body>
 </html>
